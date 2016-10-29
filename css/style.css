@@ -1,0 +1,64 @@
+﻿/* Работа с текстом и фото*/
+.title {
+	font-family:brush script mt;
+	font-size: 90px;
+	color: #ffffff;
+	text-align: center;
+}
+h4.main {
+	text-align: center;
+	color: #aaaaaa
+	font-family: Century Gothic;
+}
+img.main1 {
+	color: #aaaaaa
+}
+h1.main {
+	text-align: center;
+}
+img.main {
+	border-radius: 5px;
+	box-shadow: 0 0 5px #666;
+}
+
+/*Фон для секций*/
+
+.section:first-child {
+  //background: #ffffff;
+  background-image: url('tree.jpg');
+  background-size: 100%;
+
+}
+.section:nth-child(2) {
+  background: #ffffff;
+}
+
+.section:nth-child(3) {
+  background: #1E90FF;
+}
+
+.section:nth-child(4) {
+  background: #00BFFF;
+}
+
+.section:nth-child(5) {
+  background: #1E90FF;
+}
+
+.section:nth-child(6) {
+  background: #0000CD;
+}
+
+.section:last-child {
+  background: #000080;
+}
+
+
+/*Меню*/
+.navbar {
+  min-height: 40px;
+}
+
+.nav > li > a:focus {
+  background: #FFFFFF;
+}
